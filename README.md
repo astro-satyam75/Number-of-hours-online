@@ -1,13 +1,13 @@
 
 
 
-Assignment Details :
+## Assignment Details :
 This is a csv file with 1.9 million rows and 4 columns (provider_id, detail, source, event_time).
 This is the data of provider activity status on the platform for Sep 2017. 
 These events are way of provider communicating to UC whether they are available to work or not available to work
  The objective is to compute hour wise provider wise no of seconds online. 
 
-Rules :
+### Rules :
 
 1.	Each Day measuring period is between 8 AM and 7 PM.
 2.	Events from 7 PM to midnight can be ignored
@@ -20,12 +20,11 @@ Rules :
 9.	It is possible that there may be continuous online or offline events. 
 10.	Treat every one as offline at 7 PM. (Status resets every day)
 
-Please share the code  and result. 
 
-Please solve this without using any loops.
+#### Please solve this without using any loops.
 
-Sample scenario for a pro p , sep 10 only 3 events ( 1015 : online , 1130 online, 1345 offfine) .The output I expect is this 
 
+### Sample scenario for a pro p , sep 10 only 3 events ( 1015 : online , 1130 online, 1345 offfine) .The output I expect is this 
 
 
 provider_id	date	Hour startime	Hour end time	Seconds online
@@ -41,7 +40,7 @@ p	10-Sep	16	17	0
 p	10-Sep	17	18	0
 p	10-Sep	18	19	0
 
-Please also fill the following metrics while sharing the output :
+### Please also fill the following metrics while sharing the output :
 
 
 1.	No of Online Events
